@@ -1,0 +1,97 @@
+body{
+    background-color: lightsalmon;
+}
+
+header{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+    
+table.inicio{
+    background-color: orchid;
+    height: 600px;
+    width: auto;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+table.inicio td:nth-child(1){
+    padding: 20px;
+    width: 500px;    
+}
+
+table.inicio td:nth-child(2){
+    padding: 20px;
+    width: 500px;
+}
+
+table.inicio td:nth-child(3){
+    padding: 20px;
+    width: 500px;
+}
+#principio{
+    width: 450px;
+    height: auto;
+    margin-bottom: 200px;
+}
+#medallas{
+    height: 200px;
+    width: auto;
+
+}
+
+#trayectoria{
+    height: 200px;
+    width: auto;
+
+}
+
+#info{
+    height: 70px;
+    width: 100%;
+    background-color: #FFDDD2;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+
+
+}
+#WhatsApp{
+    max-width: 30px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#gmail {
+    max-width: 30px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#uno{
+    text-align: right;
+}
+
+#dos{
+    text-align: center;
+}
+
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-thickness: 3px;
+    color: rgb(73, 255, 185);
+    text-decoration-color: blueviolet;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #888888; 
+    -webkit-text-stroke: 1px #333333;   
+}

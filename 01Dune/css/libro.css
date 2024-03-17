@@ -1,0 +1,136 @@
+body {
+    background-color:#18373A ;
+    }
+    
+    h1{
+        margin-left: 180px;
+    }
+    
+    header {
+        display:flex;
+        height: 71px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFD2B5;
+        border-radius: 10px;
+        color: #ffffff;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    ul{
+        display: flex;
+        gap: 5rem;
+        list-style: none;
+        height: 60px;
+        justify-content: space-between;
+        border-radius: 30px;
+        margin-right: 50px;
+    
+    }
+    
+    li{
+        display: flex;
+        font-size: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 15px;
+        margin-right: 6px;
+    }
+    
+    table.libros{
+        background-color:#EE904A;
+        border-radius: 5px;
+        text-align: justify;
+        color: #ffffff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        padding: 30px;
+    }
+
+
+    table.libros td:nth-child(1){
+        width: 700px;
+        height: 500px;
+        margin-left: 10px;
+    }
+
+    table.libros td:nth-child(2){
+        width: 700px;
+        height: 500px;    }
+
+    table.libros td:nth-child(3){
+        width: 700px;
+        height: 500px;    }
+
+
+    #unos{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    #doss{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    #tres{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    #cuatro{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    #cinco{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    #seis{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+
+    #in{
+        height: 20%;
+        width: 100%;
+        background-color: #0D646B;
+        border-radius: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+    
+    
+    }
+    #WhatsApp{
+        max-width: 30px;
+        height: auto;
+        text-align: center;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+    
+    #gmail {
+        max-width: 30px;
+        height: auto;
+        text-align: center;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+    
+    #uno{
+        text-align: right;
+    }
+    
+    #dos{
+        text-align: center;
+    }
+    
+
