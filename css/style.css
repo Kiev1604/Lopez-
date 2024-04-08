@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
         background-size: 200% 100%;
@@ -9,6 +10,11 @@ body{
         justify-content: center;
         align-items: center;
         padding: 10px;
+=======
+    background-color: darkturquoise; 
+    font-family:arial;  
+    color:white;  
+>>>>>>> 45650d7638ac1676af5aba130ba32e99ca19d774
 }
 
 h2 {
@@ -19,6 +25,7 @@ h2 {
 a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-thickness: 3px;
+<<<<<<< HEAD
     color: rgb(255, 239, 242);
     text-decoration-color: rgb(252, 173, 173);
 }
@@ -27,3 +34,8 @@ a{
     0% { background-position: 100% 0; }
     100% { background-position: 0 0; }
 }
+=======
+    color: crimson;
+    text-decoration-color: dimgray;
+}
+>>>>>>> 45650d7638ac1676af5aba130ba32e99ca19d774
