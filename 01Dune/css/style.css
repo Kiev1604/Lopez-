@@ -1,0 +1,98 @@
+body {
+background-color:#18373A ;
+}
+
+h1{
+    margin-left: 180px;
+}
+
+header {
+    display:flex;
+    height: 71px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFD2B5;
+    border-radius: 10px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    height: 60px;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-right: 50px;
+
+}
+
+li{
+    display: flex;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+
+table.principal td:nth-child(1){
+    width: 385px;
+    height: 480px;
+    background-color: #EE904A;
+    border-radius: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.principal td:nth-child(2){
+    width: 950px;
+    height: 480px;
+    background-color: #E27812;
+    border-radius: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    vertical-align: baseline;
+    font-size: large;
+    padding: 30px;
+}
+ #portada {
+    max-width: 80%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #info{
+    height: 80px;
+    width: 1330px;
+    background-color: #0D646B;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+#WhatsApp{
+    max-width: 30px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+#gmail {
+    max-width: 30px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+#uno{
+    text-align: right;
+}
+
+#dos{
+    text-align: center;
+}

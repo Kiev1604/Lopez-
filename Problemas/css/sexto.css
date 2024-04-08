@@ -1,0 +1,90 @@
+input{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+input[type="date"] {
+    min-width: 200px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-size: 200% 100%;
+    background-image: linear-gradient(to left, aquamarine, #8A2BE2);
+    animation: cambioColor 5s ease infinite alternate;
+    color: white;
+    
+    
+
+}
+
+button {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+    border-style: inset;
+    border-radius: 12px;
+    transition: width 2s, height 2s;
+    width: 135px;
+    height: 60px;
+    transition: width 0.5s, height 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #51bbb6;
+    width: 140px;
+    height: 70px;
+    color: #ffffff;
+}
+
+@keyframes cambioColor {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+.centrar {
+    align-items: center; 
+    border: 2px solid black;
+    width: 50%; 
+    height: 50%; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 320px;
+}
+
+input, button, p {
+    margin: 10px;
+}
+
+.menu {
+    flex-direction: column;  
+    justify-content: space-between;
+
+}
+
+.boton {
+    margin-bottom: 100px; 
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

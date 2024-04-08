@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-size: 200% 100%;
+    background-image: linear-gradient(to left, aquamarine, #8A2BE2);
+    animation: cambioColor 5s ease infinite alternate;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+@keyframes cambioColor {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   text-align: center;
+   display: flex;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

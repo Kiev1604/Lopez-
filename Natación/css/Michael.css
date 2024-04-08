@@ -1,0 +1,86 @@
+body{
+    background-color:#E29578;
+}
+
+header{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+table.inicio td:nth-child(1) a{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 35px;
+    display: flex;
+    line-height: 100px;
+    padding: 5px;
+    text-decoration-thickness: 3px;
+    color: rgb(73, 255, 185);
+    text-decoration-color: blueviolet;
+
+    
+}
+table.inicio td:nth-child(2){
+    background-color: #FFA62B;
+    height: 600px;
+    width: 1100px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+#inicio{
+    width: 450px;
+    height: auto;
+}
+#michael{
+    height: 200px;
+    width: auto;
+
+}
+#info{
+    height: 70px;
+    width: 100%;
+    background-color: #FFDDD2;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+
+
+}
+#WhatsApp{
+    max-width: 30px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#gmail {
+    max-width: 30px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#uno{
+    text-align: right;
+}
+
+#dos{
+    text-align: center;
+}
+
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    padding: 5px;
+    text-decoration-thickness: 3px;
+    color: rgb(73, 255, 185);
+    text-decoration-color: blueviolet;
+}

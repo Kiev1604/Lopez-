@@ -1,5 +1,29 @@
-*{
-    background-color:bisque; 
-    font-family:arial;  
-    color:blue;  
+body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        background-size: 200% 100%;
+        background-image: linear-gradient(to left, rgb(70, 70, 70), #c2bebe);
+        animation: cambioColor 5s ease infinite alternate;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #888888; 
+    -webkit-text-stroke: 1px #000000;   
+}
+
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-thickness: 3px;
+    color: rgb(255, 239, 242);
+    text-decoration-color: rgb(252, 173, 173);
+}
+
+@keyframes cambioColor {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
 }
