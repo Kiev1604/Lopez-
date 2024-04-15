@@ -7,42 +7,42 @@ html, body {
     align-items: center;
 }
 
-/* Estilo del contenedor principal */
+
 .contenido {
     width: 100%;
-    max-width: 600px; /* Ajusta este valor según prefieras */
+    max-width: 600px; 
     margin: auto;
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.5); /* Blanco con transparencia */
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra difuminada */
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
-/* Estilo del título del problema */
+
 .titulo{
-    text-align: center; /* Centrado horizontalmente */
+    text-align: center; 
 }
 
-/* Estilo del campo de entrada */
+
 .pr{
     width: 100%;
     border: none;
-    border-bottom: 2px solid #000; /* Línea inferior visible */
-    background-color: transparent; /* Fondo transparente */
-    margin-bottom: 20px; /* Espacio antes del botón */
+    border-bottom: 2px solid #000; 
+    background-color: transparent; 
+    margin-bottom: 20px; 
 }
 
-/* Estilo del botón con animación */
+
 .boton{
-    display: block; /* Bloque para ancho completo */
-    width: 50%; /* Ancho del botón */
-    margin: 20px auto; /* Margen automático para centrar */
-    padding: 10px 0; /* Relleno vertical */
+    display: block; 
+    width: 50%; 
+    margin: 20px auto; 
+    padding: 10px 0; 
     border: none;
     border-radius: 5px;
     background-color: #fff;
     cursor: pointer;
-    animation: pulse 2s infinite; /* Animación */
+    animation: pulse 2s infinite; 
 }
 
 /* Animación para el botón */
@@ -58,14 +58,14 @@ html, body {
 }
 
 .boton:hover {
-    background-color: #f8f8f8; /* Cambia al color que prefieras */
+    background-color: #f8f8f8; 
 }
 
 .boton-redireccion{
-    display: block; /* Bloque para ancho completo */
-    width: 20%; /* Ancho del botón */
-    margin: 20px auto; /* Margen automático para centrar */
-    padding: 10px 0; /* Relleno vertical */
+    display: block; 
+    width: 20%; 
+    margin: 20px auto; 
+    padding: 10px 0; 
     border: none;
     border-radius: 5px;
     background-color: #42e0d3;
