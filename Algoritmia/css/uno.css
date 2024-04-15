@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgba(70,130,180,1) 30%, rgba(123,104,238,1) 50%, rgba(147,112,219,1) 70%);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo del contenedor principal */
+.contenido {
+    width: 100%;
+    max-width: 600px; /* Ajusta este valor según prefieras */
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco con transparencia */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra difuminada */
+}
+
+/* Estilo del título del problema */
+.titulo{
+    text-align: center; /* Centrado horizontalmente */
+}
+
+/* Estilo del campo de entrada */
+.pr{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000; /* Línea inferior visible */
+    background-color: transparent; /* Fondo transparente */
+    margin-bottom: 20px; /* Espacio antes del botón */
+}
+
+/* Estilo del botón con animación */
+.boton{
+    display: block; /* Bloque para ancho completo */
+    width: 50%; /* Ancho del botón */
+    margin: 20px auto; /* Margen automático para centrar */
+    padding: 10px 0; /* Relleno vertical */
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    animation: pulse 2s infinite; /* Animación */
+}
+
+/* Animación para el botón */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.boton:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+.boton:hover {
+    background-color: #f8f8f8; /* Cambia al color que prefieras */
+}
+
+.boton-redireccion{
+    display: block; /* Bloque para ancho completo */
+    width: 20%; /* Ancho del botón */
+    margin: 20px auto; /* Margen automático para centrar */
+    padding: 10px 0; /* Relleno vertical */
+    border: none;
+    border-radius: 5px;
+    background-color: #42e0d3;
+    cursor: pointer;
+    
+}
